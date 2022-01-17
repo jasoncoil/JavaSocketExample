@@ -3,7 +3,7 @@ import org.junit.jupiter.api.Assertions;
 
 public class JUnitTestSuite {
     @Test
-    public void serverPortTest() {
+    public void socketServerPortTest() {
         Server server = new Server();
         Assertions.assertEquals(6666, server.SERVER_PORT);
     }
